@@ -8,14 +8,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MapleList — Where Canada Builds",
+  title: "MapleList — Buy Canadian",
   description:
-    "The home for Canadian startups, talent, and investors. Discover opportunities, connect with founders, and grow the Canadian tech ecosystem.",
-  keywords: ["startups", "Canada", "jobs", "investors", "talent", "tech"],
+    "Discover and buy Canadian-made products. Find Canadian alternatives to foreign brands across food, clothing, tech, home goods, beauty, and more.",
+  keywords: [
+    "buy Canadian",
+    "made in Canada",
+    "Canadian products",
+    "Canadian brands",
+    "Canadian alternatives",
+    "support local",
+  ],
   openGraph: {
-    title: "MapleList — Where Canada Builds",
+    title: "MapleList — Buy Canadian",
     description:
-      "The home for Canadian startups, talent, and investors.",
+      "Discover and buy Canadian-made products. Find Canadian alternatives to foreign brands.",
     url: "https://maplelist.ca",
     siteName: "MapleList",
     type: "website",

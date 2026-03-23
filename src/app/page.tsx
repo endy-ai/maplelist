@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import FeaturedStartups from "@/components/FeaturedStartups";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import Categories from "@/components/Categories";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <FeaturedStartups />
+        <FeaturedProducts />
         <Categories />
         <CTA />
       </main>

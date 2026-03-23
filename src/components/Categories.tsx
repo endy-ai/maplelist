@@ -1,24 +1,24 @@
 const categories = [
-  { icon: "🧠", name: "AI & Machine Learning", count: 340 },
-  { icon: "💰", name: "FinTech", count: 285 },
-  { icon: "🌱", name: "CleanTech", count: 210 },
-  { icon: "🏥", name: "HealthTech", count: 195 },
-  { icon: "🛒", name: "E-Commerce", count: 175 },
-  { icon: "🔐", name: "Cybersecurity", count: 145 },
-  { icon: "🎮", name: "Gaming", count: 120 },
-  { icon: "🏗️", name: "PropTech", count: 98 },
+  { icon: "🍽️", name: "Food & Beverage", count: 320 },
+  { icon: "👕", name: "Clothing & Apparel", count: 275 },
+  { icon: "🏠", name: "Home & Living", count: 240 },
+  { icon: "💄", name: "Beauty & Skincare", count: 195 },
+  { icon: "💻", name: "Tech & Electronics", count: 160 },
+  { icon: "⛷️", name: "Outdoor & Sports", count: 185 },
+  { icon: "💊", name: "Health & Wellness", count: 150 },
+  { icon: "🧸", name: "Baby & Kids", count: 110 },
 ];
 
 export default function Categories() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section id="categories" className="bg-gray-50 py-20">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Explore by sector
+            Shop by category
           </h2>
           <p className="mt-3 text-lg text-gray-500">
-            Find startups and roles in the industries that matter to you.
+            Find Canadian-made products in every category you need.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function Categories() {
                 {c.name}
               </span>
               <span className="text-xs text-gray-400">
-                {c.count} companies
+                {c.count} products
               </span>
             </button>
           ))}

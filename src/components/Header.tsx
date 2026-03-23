@@ -20,22 +20,22 @@ export default function Header() {
         {/* Desktop nav */}
         <nav className="hidden items-center gap-8 md:flex">
           <Link
-            href="#startups"
+            href="#products"
             className="text-sm font-medium text-gray-600 transition-colors hover:text-gray-900"
           >
-            Startups
+            Browse
           </Link>
           <Link
-            href="#talent"
+            href="#categories"
             className="text-sm font-medium text-gray-600 transition-colors hover:text-gray-900"
           >
-            Talent
+            Categories
           </Link>
           <Link
-            href="#investors"
+            href="#for-brands"
             className="text-sm font-medium text-gray-600 transition-colors hover:text-gray-900"
           >
-            Investors
+            For Brands
           </Link>
         </nav>
 
@@ -45,7 +45,7 @@ export default function Header() {
             Log in
           </button>
           <button className="rounded-lg bg-maple px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-maple-dark">
-            Sign up
+            List Your Brand
           </button>
         </div>
 
@@ -83,21 +83,21 @@ export default function Header() {
       {menuOpen && (
         <div className="border-t border-gray-100 bg-white px-6 pb-4 md:hidden">
           <nav className="flex flex-col gap-3 pt-3">
-            <Link href="#startups" className="text-sm font-medium text-gray-600">
-              Startups
+            <Link href="#products" className="text-sm font-medium text-gray-600">
+              Browse
             </Link>
-            <Link href="#talent" className="text-sm font-medium text-gray-600">
-              Talent
+            <Link href="#categories" className="text-sm font-medium text-gray-600">
+              Categories
             </Link>
-            <Link href="#investors" className="text-sm font-medium text-gray-600">
-              Investors
+            <Link href="#for-brands" className="text-sm font-medium text-gray-600">
+              For Brands
             </Link>
             <hr className="my-1 border-gray-100" />
             <button className="text-left text-sm font-medium text-gray-700">
               Log in
             </button>
             <button className="rounded-lg bg-maple px-4 py-2 text-sm font-semibold text-white">
-              Sign up
+              List Your Brand
             </button>
           </nav>
         </div>

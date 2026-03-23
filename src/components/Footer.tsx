@@ -14,43 +14,93 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-gray-500">
-              The home for Canadian startups, talent, and investors.
+              Discover and support Canadian-made products. Buy local, buy
+              Canadian.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h4 className="text-sm font-semibold text-gray-900">Platform</h4>
+            <h4 className="text-sm font-semibold text-gray-900">Shop</h4>
             <ul className="mt-3 space-y-2 text-sm text-gray-500">
-              <li><Link href="#" className="hover:text-gray-700">Startups</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Jobs</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Talent</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Investors</Link></li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Browse Products
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Categories
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  New Arrivals
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Canadian Alternatives
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-gray-900">For Brands</h4>
+            <ul className="mt-3 space-y-2 text-sm text-gray-500">
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  List Your Brand
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Success Stories
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Brand Resources
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-gray-900">Company</h4>
             <ul className="mt-3 space-y-2 text-sm text-gray-500">
-              <li><Link href="#" className="hover:text-gray-700">About</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Blog</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Careers</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Contact</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-sm font-semibold text-gray-900">Legal</h4>
-            <ul className="mt-3 space-y-2 text-sm text-gray-500">
-              <li><Link href="#" className="hover:text-gray-700">Privacy</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Terms</Link></li>
-              <li><Link href="#" className="hover:text-gray-700">Cookies</Link></li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Privacy
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-gray-700">
+                  Terms
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-10 border-t border-gray-100 pt-6 text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} MapleList. Made with 🍁 in Canada.
+          &copy; {new Date().getFullYear()} MapleList. Made with 🍁 in Canada.
         </div>
       </div>
     </footer>
